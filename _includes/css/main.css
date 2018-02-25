@@ -1,0 +1,32 @@
+html {
+  font-family: "Maven Pro", sans-serif;
+  background-color: #3aafa9;
+  color: #17252a;
+}
+
+header, footer {
+  background-color: #17252a;
+  color: #feffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Josefin Slab", serif;
+  color: #feffff;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol > li::before {
+  content: none;
+}
+
+a {
+  text-decoration: none;
+  color: #2b7a78;
+}
+
+a:hover {
+  color: #17252a;
+}
