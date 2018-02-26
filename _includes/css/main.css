@@ -11,15 +11,19 @@ header, footer {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Josefin Slab", serif;
+}
+
+h1, h2, h3, h4 {
   color: #feffff;
 }
 
-ol {
-  list-style-type: decimal;
+.white-underline {
+  border-bottom: 2px solid #feffff;
 }
 
-ol > li::before {
-  content: none;
+h4 {
+  -webkit-column-span: all;
+  column-span: all;
 }
 
 a {
@@ -29,4 +33,36 @@ a {
 
 a:hover {
   color: #17252a;
+}
+
+.mid-blue {
+  color: #2b7a78;
+}
+
+@media only screen and (min-width: 25em) {
+
+  h1 {
+    text-align: center;
+  }
+
+  ol {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  h3, footer p {
+    text-align: center;
+  }
+
+  ol {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+  }
+
 }
