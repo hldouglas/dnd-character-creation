@@ -22,9 +22,6 @@
     <loc>https://hldouglas.github.io/dnd-character-creation/aasimar/</loc>
   </url>
   <url>
-    <loc>https://hldouglas.github.io/dnd-character-creation/bugbear/</loc>
-  </url>
-  <url>
     <loc>https://hldouglas.github.io/dnd-character-creation/dragonborn/</loc>
   </url>
   <url>
@@ -43,9 +40,6 @@
     <loc>https://hldouglas.github.io/dnd-character-creation/gnome/</loc>
   </url>
   <url>
-    <loc>https://hldouglas.github.io/dnd-character-creation/goblin/</loc>
-  </url>
-  <url>
     <loc>https://hldouglas.github.io/dnd-character-creation/goliath/</loc>
   </url>
   <url>
@@ -58,22 +52,16 @@
     <loc>https://hldouglas.github.io/dnd-character-creation/halfling/</loc>
   </url>
   <url>
-    <loc>https://hldouglas.github.io/dnd-character-creation/hobgoblin/</loc>
-  </url>
-  <url>
     <loc>https://hldouglas.github.io/dnd-character-creation/human/</loc>
   </url>
   <url>
     <loc>https://hldouglas.github.io/dnd-character-creation/kenku/</loc>
   </url>
   <url>
-    <loc>https://hldouglas.github.io/dnd-character-creation/kobold/</loc>
-  </url>
-  <url>
     <loc>https://hldouglas.github.io/dnd-character-creation/lizardfolk/</loc>
   </url>
   <url>
-    <loc>https://hldouglas.github.io/dnd-character-creation/orc/</loc>
+    <loc>https://hldouglas.github.io/dnd-character-creation/monster/</loc>
   </url>
   <url>
     <loc>https://hldouglas.github.io/dnd-character-creation/tabaxi/</loc>
@@ -83,9 +71,6 @@
   </url>
   <url>
     <loc>https://hldouglas.github.io/dnd-character-creation/triton/</loc>
-  </url>
-  <url>
-    <loc>https://hldouglas.github.io/dnd-character-creation/yuan-ti/</loc>
   </url>
   <url>
     <loc>https://hldouglas.github.io/dnd-character-creation/barbarian/</loc>
