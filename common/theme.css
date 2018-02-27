@@ -1,0 +1,56 @@
+:root {
+  --font-primary: "Josefin Slab", serif;
+  --font-secondary: "Maven Pro", sans-serif;
+
+  --color-light-shade: #f5faf9;
+  --color-light-accent: #ffb6c1;
+  --color-main: #e94049;
+  --color-dark-accent: #959cb1;
+  --color-dark-shade: #425468;
+}
+
+html {
+  font-family: var(--font-secondary);
+}
+
+h1, h2, h3, h4, h5, h6, caption {
+  font-family: var(--font-primary);
+}
+
+h2 span {
+  border-color: var(--color-light-accent);
+}
+
+html {
+  background-color: var(--color-light-shade);
+  color: var(--color-dark-shade);
+}
+
+header, footer {
+  background-color: var(--color-main);
+  color: var(--color-light-shade);
+}
+
+a {
+  color: var(--color-dark-accent);
+}
+
+a:hover {
+  color: var(--color-light-accent);
+}
+
+.card {
+  color: var(--color-light-shade);
+}
+
+.card-light {
+  background-color: var(--color-dark-accent);
+}
+
+.card-dark {
+  background-color: var(--color-dark-shade);
+}
+
+.cinnabar {
+  color: var(--color-main);
+}
