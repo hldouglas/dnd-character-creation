@@ -22,6 +22,10 @@ a {
   border-radius: 5px;
 }
 
+select {
+  display: block;
+}
+
 @media only screen and (min-width: 25em) {
 
   h1 {
