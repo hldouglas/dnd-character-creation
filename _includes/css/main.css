@@ -14,12 +14,21 @@ ol {
   column-count: 2;
 }
 
+ul > li::before {
+  content: "◦";
+  width: 1.15em;
+}
+
 a {
   text-decoration: none;
 }
 
 .card {
   border-radius: 5px;
+}
+
+table {
+  table-layout: auto;
 }
 
 select {
