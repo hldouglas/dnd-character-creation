@@ -16,7 +16,6 @@ ol {
 
 ul > li::before {
   content: "◦";
-  width: 1.15em;
 }
 
 a {
