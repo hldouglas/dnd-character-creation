@@ -2,11 +2,11 @@
   --font-primary: "EB Garamond", serif;
   --font-secondary: 'Quicksand', sans-serif;
 
-  --color-light-shade: #f5faf9;
-  --color-light-accent: #ffb6c1;
-  --color-main: #e94049;
-  --color-dark-accent: #959cb1;
-  --color-dark-shade: #425468;
+  --color-light-shade: #f7f9f9;
+  --color-light-accent: #837474;
+  --color-main: #8abcc5;
+  --color-dark-accent: #9c3d51;
+  --color-dark-shade: #2c2c4a;
 }
 
 html {
@@ -37,10 +37,6 @@ a {
 
 a:hover {
   color: var(--color-light-accent);
-}
-
-.card {
-  color: var(--color-light-shade);
 }
 
 .card-light {
