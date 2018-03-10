@@ -2,11 +2,11 @@
   --font-primary: "EB Garamond", serif;
   --font-secondary: 'Quicksand', sans-serif;
 
-  --color-light-shade: #f7f9f9;
-  --color-light-accent: #837474;
-  --color-main: #8abcc5;
-  --color-dark-accent: #9c3d51;
-  --color-dark-shade: #2c2c4a;
+  --color-light-shade: #f8f4f2;
+  --color-light-accent: #ba717a;
+  --color-main: #4c79ac;
+  --color-dark-accent: #012493;
+  --color-dark-shade: #1b111b;
 }
 
 html {
