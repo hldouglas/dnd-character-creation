@@ -580,7 +580,7 @@ layout: default
           </tbody>
         </table>
       </div>
-      <p>You can stay in a beast shape for a number of hours equal to half your druid level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall unconscious, drop to O hit points, or die.<br>While you are transformed, the following rules apply:</p>
+      <p class="push-1-8">You can stay in a beast shape for a number of hours equal to half your druid level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall unconscious, drop to O hit points, or die.<br>While you are transformed, the following rules apply:</p>
       <ul>
         <li>Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.</li>
         <li>When you transform, you assume the beast's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked unconscious.</li>
@@ -632,74 +632,755 @@ layout: default
     </div>
 
     <div class="unit [ unit-xs-1 unit-m-1-2 ] gutter-1-2">
-      <h3 class="push-1-8">College of Lore</h3>
-      <p>Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. Whether singing folk ballads in taverns or elaborate compositions in royal courts, these bards use their gifts to hold audiences spellbound. When the applause dies down, the audience members might find themselves questioning everything they held to be true, from their faith in the priesthood of the local temple to their loyalty to the king.<br>The loyalty of these bards lies in the pursuit of beauty and truth, not in fealty to a monarch or following the tenets of a deity. A noble who keeps such a bard as a herald or advisor knows that the bard would rather be honest than politic.<br>The college's members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.</p>
+      <h3 class="push-1-8">Circle of the Land</h3>
+      <p>The Circle of the Land is made up of mystics and sages who safeguard ancient knowledge and rites through a vast oral tradition. These druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic. The circle's wisest members preside as the chief priests of communities that hold to the Old Faith and serve as advisors to the rulers of those folk. As a member of this circle, your magic is inl1uenced by the land where you were initiated into the circle's mysterious rites.</p>
 
-      <h4 class="push-1-8">Bonus Proficiencies</h4>
-      <p>When you join the College of Lore at 3rd level, you gain proficiency with three skills of your choice.</p>
+      <h4 class="push-1-8">Bonus Cantrip</h4>
+      <p>When you choose this circle at 2nd level, you learn one additional druid cantrip of your choice.</p>
 
-      <h4 class="push-1-8">Cutting Words</h4>
-      <p>Also at 3rd level, you learn how to use your wit to distract, confuse, and otherwise sap the confidence and competence of others. When a creatare that you can see within 60 feet of you makes an attack roll, an ability check, or a damage roll, you can use your reaction to expend one of your uses of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature's roll. You can choose to use this feature after the creature makes its roll, but before the DM determines whether the attack roll or ability check succeeds or fails, or before the creature deals its damage. The creature is immune if it can't hear you or if it's immune to being charmed.</p>
+      <h4 class="push-1-8">Natural Recovery</h4>
+      <p>Starting at 2nd level, you can regain some of your magical energy by sitting in meditation and communing with nature. During a short rest, you choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your druid level (rounded up), and none of the slots can be 6th level or higher. You can't use this feature again until you finish a long rest.<br>For example, when you are a 4th-level druid, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level slot or two 1st-level slots.</p>
 
-      <h4 class="push-1-8">Additional Magical Secrets</h4>
-      <p>At 6th level, you learn two spells of your choice from any class. A spell yuu choose must be of a level you can cast, as shown on the Bard table, or a cantrip. The chosen spells count as bard spells for you but don't count against the number of bard spells you know.</p>
+      <h4 class="push-1-8">Circle Spells</h4>
+      <p>Your mystical connection to the land infuses you with the ability to cast certain spells, At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid, Choose that land—arctic, coast, desert, forest, grassland, mountain, swamp, or Underdark—and consult the associated list of spells. <br>Once you gain access to a circle spell. You always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.</p>
+      <table>
+        <caption class="mega not-italic push-1-8">Arctic</caption>
+        <thead>
+          <tr>
+            <th>Druid Level</th>
+            <th>Circle Spells</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>3rd</td>
+            <td><em>hold person</em>, <em>spike growth</em></td>
+          </tr>
+          <tr>
+            <td>5th</td>
+            <td><em>sleet storm</em>, <em>slow</em></td>
+          </tr>
+          <tr>
+            <td>7th</td>
+            <td><em>freedom of movement</em>, <em>ice storm</em></td>
+          </tr>
+          <tr>
+            <td>9th</td>
+            <td><em>commune with nature</em>, <em>cone of cold</em></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <caption class="mega not-italic push-1-8">Coast</caption>
+        <thead>
+          <tr>
+            <th>Druid Level</th>
+            <th>Circle Spells</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>3rd</td>
+            <td><em>mirror image</em>, <em>misty step</em></td>
+          </tr>
+          <tr>
+            <td>5th</td>
+            <td><em>water breathing</em>, <em>water walk</em></td>
+          </tr>
+          <tr>
+            <td>7th</td>
+            <td><em>control water</em>, <em>freedom of movement</em></td>
+          </tr>
+          <tr>
+            <td>9th</td>
+            <td><em>conjure elemental</em>, <em>scrying</em></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <caption class="mega not-italic push-1-8">Desert</caption>
+        <thead>
+          <tr>
+            <th>Druid Level</th>
+            <th>Circle Spells</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>3rd</td>
+            <td><em>blur</em>, <em>silence</em></td>
+          </tr>
+          <tr>
+            <td>5th</td>
+            <td><em>create food and water</em>, <em>protection from energy</em></td>
+          </tr>
+          <tr>
+            <td>7th</td>
+            <td><em>blight</em>, <em>hallucinatory terrain</em></td>
+          </tr>
+          <tr>
+            <td>9th</td>
+            <td><em>insect plague</em>, <em>wall of stone</em></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <caption class="mega not-italic push-1-8">Forest</caption>
+        <thead>
+          <tr>
+            <th>Druid Level</th>
+            <th>Circle Spells</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>3rd</td>
+            <td><em>barkskin</em>, <em>spider climb</em></td>
+          </tr>
+          <tr>
+            <td>5th</td>
+            <td><em>call lightning</em>, <em>plant growth</em></td>
+          </tr>
+          <tr>
+            <td>7th</td>
+            <td><em>divination</em>, <em>freedom of movement</em></td>
+          </tr>
+          <tr>
+            <td>9th</td>
+            <td><em>commune with nature</em>, <em>tree stride</em></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <caption class="mega not-italic push-1-8">Grassland</caption>
+        <thead>
+          <tr>
+            <th>Druid Level</th>
+            <th>Circle Spells</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>3rd</td>
+            <td><em>invisibility</em>, <em>pass without a trace</em></td>
+          </tr>
+          <tr>
+            <td>5th</td>
+            <td><em>daylight</em>, <em>haste</em></td>
+          </tr>
+          <tr>
+            <td>7th</td>
+            <td><em>divination</em>, <em>freedom of movement</em></td>
+          </tr>
+          <tr>
+            <td>9th</td>
+            <td><em>dream</em>, <em>insect plague</em></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <caption class="mega not-italic push-1-8">Mountain</caption>
+        <thead>
+          <tr>
+            <th>Druid Level</th>
+            <th>Circle Spells</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>3rd</td>
+            <td><em>spider climb</em>, <em>spike growth</em></td>
+          </tr>
+          <tr>
+            <td>5th</td>
+            <td><em>lightning bolt</em>, <em>meld into stone</em></td>
+          </tr>
+          <tr>
+            <td>7th</td>
+            <td><em>stone shape</em>, <em>stoneskin</em></td>
+          </tr>
+          <tr>
+            <td>9th</td>
+            <td><em>passwall</em>, <em>wall of stone</em></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <caption class="mega not-italic push-1-8">Swamp</caption>
+        <thead>
+          <tr>
+            <th>Druid Level</th>
+            <th>Circle Spells</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>3rd</td>
+            <td><em>darkness</em>, <em>Melf's acid arrow</em></td>
+          </tr>
+          <tr>
+            <td>5th</td>
+            <td><em>water walk</em>, <em>stinking cloud</em></td>
+          </tr>
+          <tr>
+            <td>7th</td>
+            <td><em>freedom of movement</em>, <em>locate creature</em></td>
+          </tr>
+          <tr>
+            <td>9th</td>
+            <td><em>insect plague</em>, <em>scrying</em></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <caption class="mega not-italic push-1-8">Underdark</caption>
+        <thead>
+          <tr>
+            <th>Druid Level</th>
+            <th>Circle Spells</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>3rd</td>
+            <td><em>spider climb</em>, <em>web</em></td>
+          </tr>
+          <tr>
+            <td>5th</td>
+            <td><em>gaseous form</em>, <em>stinking cloud</em></td>
+          </tr>
+          <tr>
+            <td>7th</td>
+            <td><em>greater invisibility</em>, <em>stone shape</em></td>
+          </tr>
+          <tr>
+            <td>9th</td>
+            <td><em>cloudkill</em>, <em>insect plague</em></td>
+          </tr>
+        </tbody>
+      </table>
 
-      <h4 class="push-1-8">Peerless Skill</h4>
-      <p>Starting at 14th level, when you make an ability check, you can expend one use of Bardic Inspiration. Roll a Bardic Inspiration die and add the number rolled to your ability check. You can choose to do so after you roll the die for the ability check, but before the DM tells you whether you succeed or fail.</p>
+      <h4 class="push-1-8">Land's Stride</h4>
+      <p>Starting at 6th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.<br>In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the <em>entangle</em> spell.</p>
+
+      <h4 class="push-1-8">Nature's Ward</h4>
+      <p>When you reach 10th level, you can't be charmed or frightened by elementals or fey, and you are immune to poison and disease.</p>
+
+      <h4 class="push-1-8">Nature's Sanctuary</h4>
+      <p>When you reach 14th level, creatures of the natural world sense your connection to nature and become hesitant to attack you. When a beast or plant creature attacks you, that creature must make a Wisdom saving throw against your druid spell save DC. On a failed save, the creature must choose a different target, or the attack automatically misses. On a successful save, the creature is immune to this effect for 24 hours.<br>The creature is aware of this effect before it makes its attack against you.</p>
     </div>
 
     <div class="unit [ unit-xs-1 unit-m-1-2 ] gutter-1-2">
-      <h3 class="push-1-8">College of Swords</h3>
-      <p>Bards of the College of Swords are called blades, and they entertain through daring feats of weapon prowess. Blades perform stunts such as sword swallowing, knife throwing and juggling, and mock combats. Though they use their weapons to entertain, they are also highly trained and skilled warriors in their own right.<br>Their talent with weapons inspires many blades to lead double lives. One blade might use a circus troupe as cover for nefarious deeds such as assassination, robbery, and blackmail. Other blades strike at the wicked, bringing justice to bear against the cruel and powerful. Most troupes are happy to accept a blade’s talent for the excitement it adds to a performance, but few entertainers fully trust a blade in their ranks.<br>Blades who abandon their lives as entertainers have often run into trouble that makes maintaining their secret activities impossible. A blade caught stealing or engaging in vigilante justice is too great a liability for most troupes. With their weapon skills and magic, these blades either take up work as enforcers for thieves’ guilds or strike out on their own as adventurers.</p>
+      <h3 class="push-1-8">Circle of the Moon</h3>
+      <p>Druids of the Circle of the Moon are fierce guardians of the wilds. Their order gathers under the full moon to share news and trade warnings. They haunt the deepest parts of the wilderness, where they might go for weeks on end before crossing paths with another humanoid creature, let alone another druid.<br>Changeable as the moon, a druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and crash through the undergrowth in bear form to drive off a trespassing monster. The wild is in the druid's blood.</p>
 
-      <h4 class="push-1-8">Bonus Proficiencies</h4>
-      <p>When you join the College of Swords at 3rd level, you gain proficiency with medium armor and the scimitar.<br>If you‘re proficient with a simple or martial melee weapon, you can use it as a spellcasting focus for your bard spells.</p>
+      <h4 class="push-1-8">Combat Wild Shape</h4>
+      <p>When you choose this circle at 2nd level, you gain the ability to use Wild Shape on your turn as a bonus action, rather than as an action.<br>Additionally, while you are transformed by Wild Shape, you can use a bonus action to expend one spell slot to regain 1d8 hit points per level of the spell slot expended.</p>
 
-      <h4 class="push-1-8">Fighting Style</h4>
-      <p>At 3rd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if something in the game lets you choose again.<br><span class="cinnabar">Dueling.</span> When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.<br><span class="cinnabar">Two-Weapon Fighting.</span> When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>
+      <h4 class="push-1-8">Circle Forms</h4>
+      <p>The rites of your circle grant you the ability to transform into more dangerous animal forms. Starting at 2nd level, you can use your Wild Shape to transform into a beast with a challenge rating as high as 1 (you ignore the Max. CR column of the Beast Shapes table, but must abide by the other limitations there).<br>Starting at 6th level, you can transform into a beast with a challenge rating as high as your druid level divided by 3, rounded down.</p>
 
-      <h4 class="push-1-8">Blade Flourish</h4>
-      <p>At 3rd level, you learn to perform impressive displays of martial prowess and speed.<br>Whenever you take the Attack action on your turn, your walking speed increases by 10 feet until the end of the turn, and if a weapon attack that you make as part of this action hits a creature, you can use one of the following Blade Flourish options of your choice. You can use only one Blade Flourish option per turn.<br><span class="cinnabar">Defensive Flourish.</span> You can expend one use of your Bardic Inspiration to cause the weapon to deal extra damage to the target you hit. The damage equals the number you roll on the Bardic Inspiration die. You also add the number rolled to your AC until the start of your next turn.<br><span class="cinnabar">Slashing Flourish.</span> You can expend one use of your Bardic Inspiration to cause the weapon to deal extra damage to the target you hit and to any other creature of your choice that you can see within 5 feet of you. The damage equals the number you roll on the Bardic Inspiration die.<br><span class="cinnabar">Mobile Flourish.</span> You can expend one use of your Bardic Inspiration to cause the weapon to deal extra damage to the target you hit. The damage equals the number you roll on the Bardic Inspiration die. You can also push the target up to 5 feet away from you, plus a number of feet equal to the number you roll on that die. You can then immediately use your reaction to move up to your walking speed to an unoccupied space within 5 feet of the target.</p>
+      <h4 class="push-1-8">Primal Strike</h4>
+      <p>Starting at 6th level, your attacks in beast form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
 
-      <h4 class="push-1-8">Extra Attack</h4>
-      <p>Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+      <h4 class="push-1-8">Elemental Wild Shape</h4>
+      <p>At 10th level, you can expend two uses of Wild Shape at the same time to transform into an air elemental, an earth elemental, a fire elemental, or a water elemental.</p>
 
-      <h4 class="push-1-8">Master's Flourish</h4>
-      <p>Starting at 14th level, whenever you use a Blade Flourish option, you can roll a d6 and use it instead of expending a Bardic Inspiration die.</p>
+      <h4 class="push-1-8">Thousand Forms</h4>
+      <p>By 14th level, you have learned to use magic to alter your physical form in more subtle ways. You can cast the <em>alter self</em> spell at will.</p>
     </div>
 
     <div class="unit [ unit-xs-1 unit-m-1-2 ] gutter-1-2">
-      <h3 class="push-1-8">College of Valour</h3>
-      <p>Bards of the College of Valour are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes. These bards gather in mead halls or around great bonfires to sing the deeds of the mighty, both past and present. They travel the land to witness great events firsthand and to ensure that the memory of those events doesn't pass from the world. With their songs, they inspire others to reach the same heights of accomplishment as the heroes of old.</p>
+      <h3 class="push-1-8">Circle of the Shepherd</h3>
+      <p>Druids of the Circle of the Shepherd commune with the spirits of nature, especially the spirits of beasts and the fey, and call to those spirits for aid. These druids recognize that all living things play a role in the natural world, yet they focus on protecting animals and fey creatures that have difficulty defending themselves. Shepherds, as they are known, see such creatures as their charges. They ward off monsters that threaten them, rebuke hunters who kill more prey than necessary, and prevent civilization from encroaching on rare animal habitats and on sites sacred to the fey. Many of these druids are happiest far from cities and towns, content to spend their days in the company of animals and the fey creatures of the wilds.<br>Members of this circle become adventurers to oppose forces that threaten their charges or to seek knowledge and power that will help them safeguard their charges better. Wherever these druids go, the spirits of the wilderness are with them.</p>
 
-      <h4 class="push-1-8">Bonus Proficiencies</h4>
-      <p>When you join the College of Valour at 3rd level, you gain proficiency with medium armor, shields, and martial weapuns.</p>
+      <h4 class="push-1-8">Speech of the Woods</h4>
+      <p>At 2nd level, you gain the ability to converse with beasts and many fey.<br>You learn to speak, read, and write Sylvan. In addition, beasts can understand your speech, and you gain the ability to decipher their noises and motions. Most beasts lack the intelligence to convey or understand sophisticated concepts, but a friendly beast could relay what it has seen or heard in the recent past. This ability doesn’t grant you friendship with beasts, though you can combine this ability with gifts to curry favor with them as you would with any nonplayer character.</p>
 
-      <h4 class="push-1-8">Combat Inspiration</h4>
-      <p>Also at 3rd level, you learn to inspire others in battle. A creature that has a Bardic Inspiration die from you can roll that die and add the number rolled to a weapon damage roll it just made. Altematively, when an attack roll is made against the creature, it can use its reaction to roll the Bardie Inspiration die and add the number rolled to its AC against that attack, after seeing the roll but before knowing whether it hits or misses.</p>
+      <h4 class="push-1-8">Spirit Totem</h4>
+      <p>Starting at 2nd level, you can call forth nature spirits to influence the world around you. As a bonus action, you can magically summon an incorporeal spirit to a point you can see within 60 ft of you. The spirit creates an aura in a 30-foot radius around that point. It counts as neither a creature nor an object, though it has the spectral appearance of the creature it represents.<br>As a bonus action, you can move the spirit up to 60 ft to a point you can see.<br>The spirit persists for 1 min or until you’re incapacitated. Once you use this feature, you can’t use it again until you finish a short or long rest.<br>The effect of the spirit’s aura depends on the type of spirit you summon from the options below.<br><span class="cinnabar">Bear Spirit</span> The bear spirit grants you and your allies its might and endurance. Each creature of your choice in the aura when the spirit appears gains temporary hit points equal to 5 + your druid level. In addition, you and your allies gain advantage on Strength checks and Strength saving throws while in the aura.<br><span class="cinnabar">Hawk Spirit</span> The hawk spirit is a consummate hunter, aiding you and your allies with its keen sight. When a creature makes an attack roll against a target in the spirit’s aura, you can use your reaction to grant advantage to that attack roll. In addition, you and your allies have advantage on Wisdom (Perception) checks while in the aura.<br><span class="cinnabar">Unicorn Spirit</span> The unicorn spirit lends its protection to those nearby. You and your allies gain advantage on all ability checks made to detect creatures in the spirit’s aura. In addition. if you cast a spell using a spell slot that restores hit points to any creature inside or outside the aura, each creature of your choice in the aura also regains hit points equal to your druid level.</p>
 
-      <h4 class="push-1-8">Extra Attack</h4>
-      <p>Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+      <h4 class="push-1-8">Mighty Summoner</h4>
+      <p class="push-1-8">Starting at 6th level, beasts and fey that you conjure are more resilient than normal. Any beast or fey summoned or created by a spell that you cast gains the following benefits:</p>
+      <ul>
+        <li>The creature appears with more hit points than normal: 2 extra hit points per Hit Die it has.</li>
+        <li>The damage from its natural weapons is considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks and damage.</li>
+      </ul>
 
-      <h4 class="push-1-8">Battle Magic</h4>
-      <p>At 14th level, you have mastered the art of weaving spellcasting and weapon use into a single harmonious act. When yuu use your action to cast a bard spell, you can make one weapon attack as a bonus action.</p>
+      <h4 class="push-1-8">Guardian Spirit</h4>
+      <p>Beginning at 10th level, your Spirit Totem safeguards the beasts and fey that you call forth with your magic. When a beast or fey that you summoned or created with a spell ends its turn in your Spirit Totem aura, that creature regains a number of hit points equal to half your druid level.</p>
+
+      <h4 class="push-1-8">Faithful Summons</h4>
+      <p>Starting at 14th level, the nature spirits you commune with protect you when you are the most defenseless. If you are reduced to 0 hit points or are incapacitated against your will, you can immediately gain the benefits of <em>conjure animals</em> as if it were cast using a 9th-level spell slot. It summons four beasts of your choice that are challenge rating 2 or lower. The conjured beasts appear within 20 ft of you. If they receive no commands from you, they protect you from harm and attack your foes. The spell lasts for 1 hour, requiring no concentration, or until you dismiss it (no action required).<br>Once you use this feature, you can’t use it again until you finish a long rest.</p>
     </div>
 
-    <div class="unit [ unit-xs-1 unit-m-1-2 ] gutter-1-2">
-      <h3 class="push-1-8">College of Whispers</h3>
-      <p>Most folk are happy to welcome a bard into their midst. Bards of the College of Whispers use this to their advantage. They appear to be like other bards, sharing news, singing songs, and telling tales to the audiences they gather. In truth, the College of Whispers teaches its students that they are wolves among sheep. These bards use their knowledge and magic to uncover secrets and turn them against others through extortion and threats.<br>Many other bards hate the College of Whispers, viewing it as a parasite that uses a bard’s reputation to acquire wealth and power. For this reason, members of this college rarely reveal their true nature. They typically claim to follow some other college, or they keep their actual calling secret in order to infiltrate and exploit royal courts and other settings of power.</p>
+    <div class="grid">
+      <div class="unit [ unit-xs-1 ] gutter-1-2 max-length">
+        <h2 class="push-1-8">Learning Beast Shapes</h2>
+        <p>The Wild Shape feature in the Player’s Handbook lets you transform into a beast that you’ve seen. That rule gives you a tremendous amount of flexibility, making it easy to amass an array of beast form options for yourself, but you must abide by the limitations in the Beast Shapes table in that book.<br>When you gain Wild Shape as a 2nd—level druid, you might wonder which beasts you've already seen. The following tables organize beasts from the Monster Manual according to the beasts’ most likely environments. Consider the environment your druid grew up in, then consult the appropriate table for a list of animals that your druid has probably seen by 2nd level.<br>These tables can also help you and your DM determine which animals you might see on your travels. In addition, the tables include each beast’s challenge rating and note whether a beast has a flying or swimming speed. This information will help you determine whether you qualify to assume that beast’s form.<br>The tables include all the individual beasts that are eligible for Wild Shape (up to a challenge rating of 1) or the Circle Forms feature of the Circle of the Moon (up to a challenge rating of 6).</p>
+      </div>
 
-      <h4 class="push-1-8">Psychic Blades</h4>
-      <p>When you join the College of Whispers at 3rd level, you gain the ability to make your weapon attacks magically toxic to a creature’s mind.<br>When you hit a creature with a weapon attack, you can expend one use of your Bardic Inspiration to deal an extra 2d6 psychic damage to that target. You can do so only once per round on your turn.<br>The psychic damage increases when you reach certain levels in this class, increasing to 3d6 at 5th level, 5d6 at 10th level, and 8d6 at 15th level.</p>
+      <div class="unit [ unit-xs-1 unit-m-1-2 ] gutter-1-2">
+        <table>
+          <caption class="mega not-italic push-1-8">Arctic</caption>
+          <thead>
+            <tr>
+              <th>CR</th>
+              <th>Beast</th>
+              <th>Fly/Swim</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>0</td>
+              <td>Owl</td>
+              <td>Fly</td>
+            </tr>
+            <tr>
+              <td>1/8</td>
+              <td>Blood hawk</td>
+              <td>Fly</td>
+            </tr>
+            <tr>
+              <td>1/4</td>
+              <td>Giant Owl</td>
+              <td>Fly</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Brown Bear</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Polar Bear</td>
+              <td>Swim</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Saber-toothed tiger</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Mammoth</td>
+              <td>—</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
-      <h4 class="push-1-8">Words of Terror</h4>
-      <p>At 3rd level, you learn to infuse innocent-seeming words with an insidious magic that can inspire terror.<br>If you speak to a humanoid alone for at least 1 minute, you can attempt to seed paranoia in its mind. At the end of the conversation, the target must succeed on a Wisdom saving throw against your spell save DC or be frightened of you or another creature of your choice. The target is frightened in this way for 1 hour, until it is attacked or damaged, or until it witnesses its allies being attacked or damaged.<br>If the target succeeds on its saving throw, the target has no hint that you tried to frighten it.<br>Once you use this feature, you can't use it again until you finish a short or long rest.</p>
+      <div class="unit [ unit-xs-1 unit-m-1-2 ] gutter-1-2">
+        <table>
+          <caption class="mega not-italic push-1-8">Coast</caption>
+          <thead>
+            <tr>
+              <th>CR</th>
+              <th>Beast</th>
+              <th>Fly/Swim</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>0</td>
+              <td>Crab</td>
+              <td>Swim</td>
+            </tr>
+            <tr>
+              <td>0</td>
+              <td>Eagle</td>
+              <td>Fly</td>
+            </tr>
+            <tr>
+              <td>1/8</td>
+              <td>Blood hawk</td>
+              <td>Fly</td>
+            </tr>
+            <tr>
+              <td>1/8</td>
+              <td>Gaint crab</td>
+              <td>Swim</td>
+            </tr>
+            <tr>
+              <td>1/8</td>
+              <td>Poisonous snake</td>
+              <td>Swim</td>
+            </tr>
+            <tr>
+              <td>1/8</td>
+              <td>Stirge</td>
+              <td>Fly</td>
+            </tr>
+            <tr>
+              <td>1/4</td>
+              <td>Giant lizard</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>1/4</td>
+              <td>Giant wolf spider</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>1/4</td>
+              <td>Pteranodon</td>
+              <td>Fly</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Giant eagle</td>
+              <td>Fly</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Giant toad</td>
+              <td>Swim</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Plesiosaurus</td>
+              <td>Swim</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
-      <h4 class="push-1-8">Mantle of Whispers</h4>
-      <p>At 6th level, you gain the ability to adopt a humanoid’s persona. When a humanoid dies within 30 feet of you, you can magically capture its shadow using your reaction. You retain this shadow until you use it or you finish a long rest.<br>You can use the shadow as an action. When you do so, it vanishes, magically transforming into a disguise that appears on you. You now look like the dead person, but healthy and alive. This disguise lasts for 1 hour or until you end it as a bonus action.<br>While you’re in the disguise, you gain access to all information that the humanoid would freely share with a casual acquaintance. Such information includes general details on its background and personal life, but doesn’t include secrets. The information is enough that you can pass yourself off as the person by drawing on its memories.<br>Another creature can see through this disguise by succeeding on a Wisdom (Insight) check contested by your Charisma (Deception) check. You gain a +5 bonus to your check.<br>Once you capture a shadow with this feature, you can’t capture another one with it until you finish a short or long rest.</p>
+      <div class="unit [ unit-xs-1 unit-m-1-2 ] gutter-1-2">
+        <table>
+          <caption class="mega not-italic push-1-8">Desert</caption>
+          <thead>
+            <tr>
+              <th>CR</th>
+              <th>Beast</th>
+              <th>Fly/Swim</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>0</td>
+              <td>Cat</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>0</td>
+              <td>Hyena</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>0</td>
+              <td>Jackal</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>0</td>
+              <td>Scorpian</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>0</td>
+              <td>Vulture</td>
+              <td>Fly</td>
+            </tr>
+            <tr>
+              <td>1/8</td>
+              <td>Camel</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>1/8</td>
+              <td>Flying snake</td>
+              <td>Fly</td>
+            </tr>
+            <tr>
+              <td>1/8</td>
+              <td>Mule</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>1/8</td>
+              <td>Poisonous snake</td>
+              <td>Swim</td>
+            </tr>
+            <tr>
+              <td>1/8</td>
+              <td>Stirge</td>
+              <td>Fly</td>
+            </tr>
+            <tr>
+              <td>1/4</td>
+              <td>Constrictor snake</td>
+              <td>Swim</td>
+            </tr>
+            <tr>
+              <td>1/4</td>
+              <td>Giant lizard</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>1/4</td>
+              <td>Giant poisonous snake</td>
+              <td>Swim</td>
+            </tr>
+            <tr>
+              <td>1/4</td>
+              <td>Giant wolf spider</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Giant hyena</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Giant spider</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Giant toad</td>
+              <td>Swim</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Giant vulture</td>
+              <td>Fly</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Lion</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Giant constrictor snake</td>
+              <td>Swim</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Giant scorpion</td>
+              <td>—</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
-      <h4 class="push-1-8">Shadow Lore</h4>
-      <p>At 14th level, you gain the ability to weave dark magic into your words and tap into a creature’s deepest fears.<br>As an action, you magically whisper a phrase that only one creature of your choice within 30 feet of you can hear. The target must make a Wisdom saving throw against your spell save DC. It automatically succeeds if it doesn’t share a language with you or if it can’t hear you. On a successful saving throw, your whisper sounds like unintelligible mumbling and has no effect.<br>On a failed saving throw, the target is charmed by you for the next 8 hours or until you or your allies attack it, damage it, or force it to make a saving throw. It interprets the whispers as a description of its most mortifying secret. You gain no knowledge of this secret, but the target is convinced you know it.<br>The charmed creature obeys your commands for fear that you will reveal its secret. It won’t risk its life for you or fight for you, unless it was already inclined to do so. It grants you favors and gifts it would offer to a close friend.<br>When the effect ends, the creature has no understanding of why it held you in such fear.<br>Once you use this feature, you can’t use it again until you finish a long rest.</p>
-    </div>
+      <div class="unit [ unit-xs-1 unit-m-1-2 ] gutter-1-2">
+        <table>
+          <caption class="mega not-italic push-1-8">Forest</caption>
+          <thead>
+            <tr>
+              <th>CR</th>
+              <th>Beast</th>
+              <th>Fly/Swim</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>0</td>
+              <td>Baboon</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>0</td>
+              <td>Badger</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>0</td>
+              <td>Cat</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>0</td>
+              <td>Deer</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>0</td>
+              <td>Hyena</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>0</td>
+              <td>Owl</td>
+              <td>Fly</td>
+            </tr>
+            <tr>
+              <td>1/8</td>
+              <td>Blood hawk</td>
+              <td>Fly</td>
+            </tr>
+            <tr>
+              <td>1/8</td>
+              <td>Flying snake</td>
+              <td>Fly</td>
+            </tr>
+            <tr>
+              <td>1/8</td>
+              <td>Giant rat</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>1/8</td>
+              <td>Giant weasel</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>1/8</td>
+              <td>Poisonous snake</td>
+              <td>Swim</td>
+            </tr>
+            <tr>
+              <td>1/8</td>
+              <td>Mastiff</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>1/8</td>
+              <td>Stirge</td>
+              <td>Fly</td>
+            </tr>
+            <tr>
+              <td>1/4</td>
+              <td>Boar</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>1/4</td>
+              <td>Constrictor snake</td>
+              <td>Swim</td>
+            </tr>
+            <tr>
+              <td>1/4</td>
+              <td>Elk</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>1/4</td>
+              <td>Giant badger</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>1/4</td>
+              <td>Giant bat</td>
+              <td>Fly</td>
+            </tr>
+            <tr>
+              <td>1/4</td>
+              <td>Giant frog</td>
+              <td>Swim</td>
+            </tr>
+            <tr>
+              <td>1/4</td>
+              <td>Giant lizard</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>1/4</td>
+              <td>Giant owl</td>
+              <td>Fly</td>
+            </tr>
+            <tr>
+              <td>1/4</td>
+              <td>Giant poisonous snake</td>
+              <td>Swim</td>
+            </tr>
+            <tr>
+              <td>1/4</td>
+              <td>Giant wolf spider</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>1/4</td>
+              <td>Panter</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>1/4</td>
+              <td>Wolf</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>1/2</td>
+              <td>Ape</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>1/2</td>
+              <td>Black bear</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>1/2</td>
+              <td>Giant wasp</td>
+              <td>Fly</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Brown bear</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Dire wolf</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Giant hyena</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Giant spider</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Giant toad</td>
+              <td>Swim</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Tiger</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Giant boar</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Giant constrictor snake</td>
+              <td>Swim</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Giant elk</td>
+              <td>—</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="unit [ unit-xs-1 unit-m-1-2 ] gutter-1-2">
+      </div>
+
+      <div class="unit [ unit-xs-1 unit-m-1-2 ] gutter-1-2">
+      </div>
+
+      <div class="unit [ unit-xs-1 unit-m-1-2 ] gutter-1-2">
+      </div>
+
+      <div class="unit [ unit-xs-1 unit-m-1-2 ] gutter-1-2">
+      </div>
+
+      <div class="unit [ unit-xs-1 unit-m-1-2 ] gutter-1-2">
+      </div>
+
+      <div class="unit [ unit-xs-1 unit-m-1-2 ] gutter-1-2">
+      </div>
 
 </main>
