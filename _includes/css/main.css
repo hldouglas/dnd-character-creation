@@ -31,6 +31,10 @@ table {
   table-layout: auto;
 }
 
+.druid-tw {
+  min-width: 395px;
+}
+
 select {
   display: block;
 }
